@@ -27,7 +27,7 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="header">
       <h1>Sagiri Ikenaga</h1>
       <HeaderNav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}

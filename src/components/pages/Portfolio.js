@@ -1,49 +1,52 @@
 import React from 'react';
-import project1 from '../../project1.png';
-import project2 from '../../project2.png';
-import module3 from '../../module3.png';
-import module4 from '../../module4.png';
+import project1 from '../../images/project1.png';
+import project2 from '../../images/project2.png';
+import module3 from '../../images/module3.png';
+import module4 from '../../images/module4.png';
+import module5 from '../../images/module5.png';
+import module11 from '../../images/module11.png';
+import module19 from '../../images/module19.png';
 
 export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
       <div>
-            <article id="app1" class="apps">
+            <article>
                 <a href="https://sagirikenaga.github.io/whats-the-word/">
-                  <img src={project1} alt="'What's the Word?' Game" height="400"></img>
+                  <img src={project1} alt="'What's the Word?' Game App" height="400"></img>
                 </a>
             </article>
         </div>
-        <div class="container__image-secondary">
-            <article class="apps">
+        <div>
+            <article>
                 <a href="https://petplace2141.herokuapp.com/">
                     <img src={project2} alt="Pet's Place Site" height="400"></img>
                 </a>
             </article>
-            <article class="apps">
+            <article>
                 <a href="https://github.com/sagirikenaga/random-password-generator">
                     <img src={module3} alt="Random Password Generator App" height="400"></img>
                 </a>
             </article>
-            <article class="apps">
+            <article>
                 <a href="https://sagirikenaga.github.io/coding-quiz/">
-                    <img src={module4} alt="Coding Quiz" height="400"></img>
+                  <img src={module4} alt="Coding Quiz App" height="400"></img>
                 </a>
             </article>
-            <article class="apps">
+            <article>
+                <a href="https://sagirikenaga.github.io/work-day-scheduler/">
+                    <img src={module5} alt="Work Day Scheduler App" height="400"></img>
+                </a>
+            </article>
+            <article>
                 <a href="https://si-note-taker.herokuapp.com/">
-                    <img src={module4} alt="Coding Quiz" height="400"></img>
+                    <img src={module11} alt="Note Taker App" height="400"></img>
                 </a>
             </article>
-            <article class="apps">
-                <a href="https://github.com/sagirikenaga">
-                    <img alt="link will take you to my main Github page" src="./assets/images/coming-soon.png"></img>
-                </a>
-            </article>
-            <article class="apps">
-                <a href="https://github.com/sagirikenaga">
-                    <img alt="link will take you to my main Github page" src="./assets/images/coming-soon.png"></img>
+            <article>
+                <a href="https://si-note-editor.herokuapp.com/">
+                    <img src={module19} alt="Text Editor App" height="400"></img>
                 </a>
             </article>
         </div>
