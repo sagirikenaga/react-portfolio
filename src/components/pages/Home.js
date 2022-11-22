@@ -29,7 +29,3 @@ export default function Home() {
     </div>
   );
 }
-
-// THIS IS THE DEFAULT PAGE 
-// DISPLAYS THE ABOUT ME TITLE AND SECTION
-// PHOTO OF ME AND SHORT BIO

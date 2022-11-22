@@ -13,9 +13,3 @@ function Footer() {
 }
 
 export default Footer;
-
-
-
-
-
-// need to have text or icon links to github, linkedin and profile on third platform?

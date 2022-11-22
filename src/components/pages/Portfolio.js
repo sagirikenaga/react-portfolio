@@ -112,6 +112,3 @@ export default function Portfolio() {
     </div>
   );
 }
-
-// THIS WILL THE PORTFOLIO SECTION
-// 6 APPLICATIONS WITH LINKS TO THE DEPLOYED APPLICATION AND GITHUB REPO
