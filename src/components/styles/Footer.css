@@ -2,9 +2,16 @@ footer {
   position: absolute;
   margin-bottom: 0;
   width: 100%;
-  height: 2.5rem;           
+  height: 3em;  
+  background-color: rgb(137, 131, 131);      
+  display: flex;
+  justify-content: center;   
 }
 
-footer h1 {
-  background-color: rgb(246, 227, 203);
+i {
+  font-size: 3em;
+  background-color:transparent;
+  color:white;
+  padding: 3px 5px;
+  margin: 3px 8px;
 }

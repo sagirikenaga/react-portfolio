@@ -1,9 +1,26 @@
-.box img {
-    flex-wrap:wrap;
-    flex:50%;
-    width:600px;
-    height:400px;
+.portfolio-img {
     margin-top: 15px;
     border: 1px solid white;
     filter:grayscale(50%);
+    width: 600px;
+    height: 400px;
+
+}
+
+#portfolio-box {
+    text-align: center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.github-a {
+    text-decoration: none;
+    color:black;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }

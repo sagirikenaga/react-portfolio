@@ -1,11 +1,13 @@
 a.nav-link {
     text-decoration: none;
+    background-color:rgb(250, 222, 186);
     color:black;
 }
 
-a.nav-link.active {
-    background-color:rgb(250, 222, 186)
+a.nav-link:hover {
+    color:rgb(182, 157, 124);
 }
+
 
 
 
