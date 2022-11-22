@@ -5,7 +5,9 @@ import '../styles/Footer.css';
 function Footer() {
   return (
     <footer className="footer">
-      <h1></h1>
+      <a href="https://github.com/sagirikenaga" target="_blank" rel="noopener noreferrer">Github</a>
+      <a href="https://linkedin.com/in/sikenaga" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://stackoverflow.com/users/20567310/sagiri-ikenaga" target="_blank" rel="noopener noreferrer">Stack</a>
     </footer>
   );
 }

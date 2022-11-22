@@ -3,9 +3,9 @@ import '../styles/ContactPage.css';
 
 export default function Contact() {
   return (
-    <div class="container">
+    <div className="container">
       <div class="row">
-        <h1>Contact me</h1>
+        <h1 className="contact-header">Contact me</h1>
       </div>
       <div class="row input-container">
         <div class="col-xs-12">

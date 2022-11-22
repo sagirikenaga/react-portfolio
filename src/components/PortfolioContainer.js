@@ -28,7 +28,7 @@ export default function PortfolioContainer() {
 
   return (
     <div className="header">
-      <h1>Sagiri Ikenaga</h1>
+      <h1 className="main-h1">Sagiri Ikenaga</h1>
       <HeaderNav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>

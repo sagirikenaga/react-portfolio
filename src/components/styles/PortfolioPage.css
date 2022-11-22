@@ -1,0 +1,9 @@
+.box img {
+    flex-wrap:wrap;
+    flex:50%;
+    width:600px;
+    height:400px;
+    margin-top: 15px;
+    border: 1px solid white;
+    filter:grayscale(50%);
+}
