@@ -21,6 +21,17 @@ img {
     border: 2px solid white;
 }
 
-p, ul {
+p {
     padding-left:20px;
+}
+
+li {
+    padding-left: 30px;
+    list-style-position: inside;
+}
+
+#textbox {
+    border: 2px solid rgb(106, 101, 101);
+    margin: 15px;
+    padding: 10px 5px;
 }

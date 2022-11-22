@@ -63,3 +63,6 @@ textarea {
     text-align: left;
 }
 
+::placeholder {
+    color:rgb(209, 206, 206);
+}
