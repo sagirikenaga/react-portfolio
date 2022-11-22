@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.dd428406.css",
+    "main.js": "/react-portfolio/static/js/main.5a393ba8.js",
+    "static/media/my-photo.png": "/react-portfolio/static/media/my-photo.9c44d9896095343226b6.png",
+    "static/media/project2.png": "/react-portfolio/static/media/project2.ac53e6fa3344dd386de2.png",
+    "static/media/resume.png": "/react-portfolio/static/media/resume.7d48bab61ccb3536b539.png",
+    "static/media/resume2.png": "/react-portfolio/static/media/resume2.83678a082c80fde93e5a.png",
+    "static/media/module4.png": "/react-portfolio/static/media/module4.4aea1866cd5745b6f3a8.png",
+    "static/media/bootcamp-resume.pdf": "/react-portfolio/static/media/bootcamp-resume.fab691227d851a00af0a.pdf",
+    "static/media/module11.png": "/react-portfolio/static/media/module11.6ac20d879b2f9cab07de.png",
+    "static/media/module3.png": "/react-portfolio/static/media/module3.61bcbf5a174207ffc987.png",
+    "static/media/module19.png": "/react-portfolio/static/media/module19.9db0c5207c6ac0a56eea.png",
+    "static/media/project1.png": "/react-portfolio/static/media/project1.f6ccecc2288da6339481.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.dd428406.css.map": "/react-portfolio/static/css/main.dd428406.css.map",
+    "main.5a393ba8.js.map": "/react-portfolio/static/js/main.5a393ba8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd428406.css",
+    "static/js/main.5a393ba8.js"
+  ]
+}
