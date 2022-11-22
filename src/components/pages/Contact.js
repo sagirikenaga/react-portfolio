@@ -7,9 +7,12 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [error, setError] = useState(false);
 
-  function isValidEmail(email) {
-    return /\S+@\S+\.\S+/.test(email);
-  }
+  // I don't think this function works hehe 
+  const isValidEmail = (email) => {
+    return email.match(
+      /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    );
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -17,7 +20,7 @@ export default function Contact() {
       name.length === 0 ||
       email.length === 0 ||
       message.length === 0 ||
-      email !== isValidEmail(email)
+      !isValidEmail(email)
     ) {
       setError(true);
     }
@@ -31,7 +34,7 @@ export default function Contact() {
       <div class="row input-container">
         <div>
           <div class="styled-input wide">
-            <input type="text" placeholder="Name" onChange={(e) => setName(e.target.value)} />
+            <input type="text" placeholder="Name" onChange={(e) => setName(e.target.value)} required />
             {error && name.length <= 0 ? (
               <label>Name cannot be empty.</label>
             ) : (
@@ -42,7 +45,7 @@ export default function Contact() {
         <div>
           <div class="styled-input">
             <input type="email" placeholder="Email Address" onChange={(e) => setEmail(e.target.value)} />
-            {error && email.length <= 0 ? (
+            {error && email.length <= 0 && !isValidEmail(email) ? (
               <label>Please enter a valid email address.</label>
             ) : (
               "Email*"
