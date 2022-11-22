@@ -1,8 +1,8 @@
 {
-  "name": "00-practice-app",
+  "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sagirikeanga.github.io/react-deploy-practice",
+  "homepage": "https://sagirikeanga.github.io/react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^11.1.0",
