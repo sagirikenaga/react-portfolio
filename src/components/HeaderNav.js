@@ -3,7 +3,7 @@ import './styles/HeaderNav.css';
 
 function HeaderNav({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs justify-content-center">
       <li className="nav-item">
         <a
           href="#home"

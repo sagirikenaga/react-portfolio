@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <div className="container">
       <div class="row">
-        <h1 className="contact-header">Contact me</h1>
+        <h1 className="contact-header">Contact Me:</h1>
       </div>
       <div class="row input-container">
         <div class="col-xs-12">

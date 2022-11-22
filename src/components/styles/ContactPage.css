@@ -54,5 +54,12 @@ textarea {
 
 .container {
     margin-top: 25px;
-    padding-bottom: 200px;
+    padding-bottom: 125px;
+    padding-top: 20px;
 }
+
+.contact-header {
+    padding-bottom: 15px;
+    text-align: left;
+}
+
