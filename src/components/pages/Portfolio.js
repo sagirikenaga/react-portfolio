@@ -2,10 +2,10 @@ import React from "react";
 import "../styles/PortfolioPage.css";
 import project1 from "../../images/project1.png";
 import project2 from "../../images/project2.png";
-import module3 from "../../images/module3.png";
 import module4 from "../../images/module4.png";
 import module11 from "../../images/module11.png";
 import module19 from "../../images/module19.png";
+import project3 from "../../images/project3.png";
 
 export default function Portfolio() {
   return (
@@ -45,17 +45,17 @@ export default function Portfolio() {
         </a>
       </div>
       <div className="project">
-        <a href="https://github.com/sagirikenaga/random-password-generator">
+        <a href="https://workout-buddy-01.herokuapp.com/">
           <img
-            src={module3}
-            alt="Random Password Generator App"
+            src={project3}
+            alt="Workout Buddy"
             height="400"
             className="portfolio-img"
           ></img>
         </a>
         <a
           className="github-a"
-          href="https://github.com/sagirikenaga/random-password-generator"
+          href="https://github.com/Iva416/WorkoutBuddy"
         >
           GitHub Link
         </a>
