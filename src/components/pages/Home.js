@@ -14,7 +14,7 @@ export default function Home() {
       </p>
       <p>Some of the programming languages and frameworks I've worked with are:</p>
       <ul>
-        <li>Javascript</li>
+        <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>jQuery</li>
