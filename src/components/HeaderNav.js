@@ -50,7 +50,3 @@ function HeaderNav({ currentPage, handlePageChange }) {
 
 export default HeaderNav;
 
-// HIGHLIGHT THE TAB WHEN SELECTED AND NAVIGATES WITHOUT THE PAGE RELOADING
-// about Me, Portfolio, Contact, and Resume
-// WITH SECTIONS HIGHLIGHTED
-// WHEN CLICKED ON NO RELOADING AND TITLE IS HIGHLIGHTED
